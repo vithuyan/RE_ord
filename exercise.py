@@ -1,0 +1,8 @@
+def ordinal(num):
+    last_digit = num % 10
+    if last_digit in [1, 2, 3, 4, 5, 6, 7, 8,9]:
+        return str(num) + 'st'
+    elif last_digit == 2:
+        return str(num) + 'nd'
+    else:
+         print(str(num) + "rd")
